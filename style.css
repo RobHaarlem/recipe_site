@@ -1,0 +1,144 @@
+* {
+  overflow: auto;
+}
+
+body {
+  background-color: #8ba1b8;
+  font-family: Cambria, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p.category {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+div.info {
+  position: relative;
+}
+table.info {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  background-color: #6c829dc0;
+  height: 80px;
+}
+table.info td {
+  text-align: center;
+  vertical-align: top;
+  font-size: 14px;
+}
+table.info th {
+  vertical-align: bottom;
+  font-size: 16px;
+}
+
+div.content {
+  background-color: white;
+  box-shadow: 0px 0px 15px 5px rgba(34, 32, 32, 0.2);
+  text-align: "center";
+  margin: 60px 10% 80px 10%;
+  padding: 0px 30px 30px 30px;
+  min-width: 350px;
+  overflow: visible;
+}
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+p.description {
+  text-align: center;
+  max-width: 600px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+div.category {
+  margin-bottom: -18px;
+  overflow: visible;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+p.seperator {
+  background-color: rgb(44, 42, 42);
+  height: 1px;
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+div.seperator {
+  text-align: center;
+}
+img.info {
+  display: block;
+  max-height: 400px;
+  min-height: 200px;
+  object-fit: cover;
+}
+div.col {
+  width: 50%;
+  text-decoration: blue;
+}
+div.col h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: 2px solid #6c829d;
+  margin: 0 60px;
+}
+div.col1 {
+  display: inline-block;
+  list-style: none;
+}
+div.col2 {
+  float: right;
+}
+
+.ingredients p {
+  text-align: center;
+  font-size: 14px;
+  border: solid 1px #6c829d3f;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 8px 0;
+
+  /* display: inline-block; */
+}
+.instructions {
+  margin-left: 20px;
+}
+table.instructions p.number {
+  background-color: #6c829d;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding-top: 3px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0;
+}
+table.instructions td.instruction-step {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+table.instructions td {
+  vertical-align: top;
+}
+table.instructions tr {
+  height: 20px;
+}
